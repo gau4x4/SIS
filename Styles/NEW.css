@@ -1,0 +1,195 @@
+html{
+height:100%;
+
+
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, iframe, img, ins, kbd, samp, small, strong, sub, sup, tt, var, b, i, dl, dt, dd, object, ol, ul, li, form, label, legend, span, table, caption, tbody, tfoot, thead, tr, th, td {
+	background-color: transparent;
+	background-position: top left;
+	background-repeat: no-repeat;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+ol, ul {
+	list-style-type: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+em, address, big, strong, cite, code, tt, var {
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+body,
+form, input, select, textarea, fieldset, button {
+	color: #000000;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	
+}
+
+body {
+	font-family: 'Oxygen';
+}
+.nav-container{
+    font-size: 1em;
+    line-height: 1.231;
+    background-color:#cc3300;
+    -webkit-box-shadow: 0 15px 5px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 0 15px 5px rgba(0, 0, 0, 0.65);
+    box-shadow: 0 15px 5px rgba(0, 0, 0, 0.65);
+    margin:0 auto;
+	height:75px;
+	list-style:none;
+	font-family:"Courier NEW";
+}
+.nav-container nav{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.nav-container nav ul li{
+	width: 200px;
+	height: 75px;
+	float: left;
+}
+.nav-container nav ul li:active{
+	width: 200px;
+	height: 75px;
+	float: left;
+	-webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #36b0b6;
+}
+
+.nav-container nav ul li.divcover{
+	background: #e51400 url(../Images/nav-discover.png) no-repeat center 5px;
+}
+.nav-container nav ul li.lifeat{
+	background: #009999 url(../Images/nav-lifeat.png) no-repeat center 5px;
+}
+.nav-container nav ul li.departments{
+	background: #ff7301 url(../Images/nav-departments.png) no-repeat center 5px;
+}
+.nav-container nav ul li.admissions{
+	background: #8cbf26 url(../Images/nav-admissions.png) no-repeat center 5px;
+}
+.nav-container nav ul li.alumni{
+	background: #3498db url(../Images/nav-alumni.png) no-repeat center 5px;
+}
+.nav-container nav ul li ul{
+	position: absolute;
+	display: none;
+	width: 200px;
+}
+.nav-container nav ul li ul li{
+	width: 200px;
+	display: inline;
+	height: auto;
+	padding: 0px;
+}
+.nav-container nav ul li ul a{
+	padding: 4px 0px 4px 5px;
+	color: #FFFFFF;
+	position: relative;
+	text-align: left;
+	font-size: 14px;
+	height: auto;
+}
+.nav-container nav ul li:hover ul{
+	display: block;
+	-webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 5px;
+  border: 15px solid #36b0b6;
+}
+nav>ul>li:hover>ul{
+	
+	position: relative;
+	-webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 5px;
+  border: 15px solid #36b0b6;
+}
+.nav-container nav ul li ul li ul{
+	position: absolute;
+	display: none !important;
+}
+.nav-container nav ul li ul li:hover ul{
+	display: block !important;
+	position: relative;
+	left: 100%;
+	z-index: 1000;
+	-webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 5px;
+  border: 15px solid #36b0b6;
+}
+.nav-container nav ul li.divcover ul{
+	margin-left: 0px;
+}
+.nav-container nav ul li.divcover ul li{
+	background: #e51400;
+	border-bottom: 1px solid #990000;
+}
+.nav-container nav ul li.lifeat ul li{
+	background: #009999;
+	border-bottom: 1px solid #006666;
+}
+
+.nav-container nav ul li.departments ul li{
+	background: #ff7301;
+	border-bottom: 1px solid #cc6633;
+	
+}
+marquee{
+marquee-direction:right;
+height:500px;
+background-color:red;
+font-size:500px;
+font-family:"Courier NEW";
+}
+marquee:hover{
+movement:stop;
+}

@@ -1,0 +1,24 @@
+
+body {
+ background-color:#dddddd;
+ font:10pt verdana;
+ margin:3;
+}
+td
+{  font:10pt verdana; }
+
+h1 {
+background-color:maroon;
+color:#dddddd;
+font:700 30pt arial;
+letter-spacing:5pt;
+}
+
+a
+{ font:700 10pt verdana}
+
+h2
+{ font:700 16pt arial;
+  background-color:navy;
+  color:white
+}

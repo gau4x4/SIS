@@ -1,0 +1,387 @@
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+/* =Reset default browser CSS
+-------------------------------------------------------------- */
+body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, iframe, img, ins, kbd, samp, small, strong, sub, sup, tt, var, b, i, dl, dt, dd, object, ol, ul, li, form, label, legend, span, table, caption, tbody, tfoot, thead, tr, th, td {
+	background-color: transparent;
+	background-position: top left;
+	background-repeat: no-repeat;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+ol, ul {
+	list-style-type: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+em, address, big, strong, cite, code, tt, var {
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Standard HTML Tag Definition 
+-------------------------------------------------------------- */
+body,
+form, input, select, textarea, fieldset, button {
+	color: #000000;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	
+}
+
+body {
+	font-family: 'Oxygen';
+}
+
+body.sub-pages {
+	background-color: #fff;
+}
+
+/* =Custom Classes
+-------------------------------------------------------------- */
+.clear {
+	clear: both;
+}
+.slider-wrapper{
+	width: 100%;
+	position: relative;
+}
+.inner-slider-wrapper{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.inner-slider-wrapper .slide img{
+	max-width: 100%;
+	float: left;
+}
+/* Header CSS */
+header{
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+.header-container{
+	max-width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.header-container .logo{
+	width: auto;
+	float: left;
+	background: #336600;
+}
+.header-container .top-nav{
+	background: #224308;
+	width: 200px;
+	min-height: 124px;
+	float: left;
+       
+}
+.header-container .top-nav ul li{
+	width: 100%;
+	padding: 5px 0px;
+	margin: 2px 0px;
+	float: left;
+}
+.header-container .top-nav ul li:first-child{
+	margin-top: 5px;
+}
+.header-container .top-nav ul li:hover{
+	background: #336600;
+}
+.header-container .top-nav ul li a{
+	width: 17px;
+	height: 25px;
+	color: #FFFFFF;
+	padding: 3px 0px;
+	margin-left: 20px;
+	padding-left: 30px;
+	background-image: url('../Images/top-nav.png');
+}
+.header-container .top-nav ul li.home a{
+	background-position: 0px 2px;
+}
+.header-container .top-nav ul li.contact a{
+	background-position: 0px -31px;
+}
+.header-container .top-nav ul li.mail a{
+	background-position: 0px -67px;
+}
+.header-container .top-nav ul li.portal a{
+	background-position: 0px -103px;
+}
+.header-container .search-social{
+	width: auto;
+	float: right;
+}
+.header-container .search-social h2{
+	color: #FFFFFF;
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-shadow: 0 1px 1px #000000;
+	margin-top: 10px;
+}
+.header-container .campuses-wrapper{
+	position: absolute;
+	width: 245px;
+	right: 250px;
+}
+.header-container .campuses-wrapper .campuses{
+	width: 245px;
+	height: 224px;
+	display: none;
+	position: relative;
+}
+.header-container .campuses-wrapper ul{
+	display: none;
+	width: 245px;
+	background: rgba(0,0,0,0.8);
+	position: relative;
+	float:left;
+}
+.header-container .campuses-wrapper ul li{
+	color: #FFFFFF;
+	padding: 13px 0px;
+	width: 250px;
+	float: left;
+}
+.header-container .campuses-wrapper ul li.NOIDA{
+	background: url(../Images/camp-NOIDA.png) no-repeat 30px center;
+}
+.header-container .campuses-wrapper ul li.LALQUAN{
+	background: url(../Images/camp-.png) no-repeat 30px center;
+}
+.header-container .campuses-wrapper ul li.DASNA1{
+	background: url(../Images/camp-DASNA1.png) no-repeat 30px center;
+}
+.header-container .campuses-wrapper ul li.DASNA2{
+	background: url(../Images/camp-DASNA2.png) no-repeat 30px center;
+}
+
+.header-container .campuses-wrapper ul li a{
+	font-size: 14px;
+	padding-left: 80px;
+	margin-top: 6px;
+	color: #cccccc;
+	float: left;
+}
+.header-container .campuses-wrapper ul li a:hover{
+	color: #FFFFFF;
+}
+.header-container .campuses-wrapper .toggle{
+	position: relative;
+}
+.header-container .campuses-wrapper .toggle a{
+	font-size: 14px;
+	color: #FFFFFF;
+	background: url(../Images/camp-tab.png) no-repeat top left;
+	width: 80px;
+	height: 25px;
+	padding: 3px 20px 0px 28px;
+	float: right;
+}
+.header-container .campuses-wrapper .toggle a:hover{
+	color: #FFFFFF;
+}
+.header-container .search-social .searchbox{
+	margin-top: 10px;
+}
+.header-container .search-social .searchbox input[type=text]{
+	width: 190px;
+	padding: 0px 10px;
+	height: 30px;
+	border: 0px;
+	outline: none;
+	float: left;
+}
+.header-container .search-social .searchbox input[type=image]{
+	outline: none;
+	float: left;
+}
+.header-container .search-social .socialbox{
+	margin-top: 20px;
+	float: right;	
+}
+.header-container .search-social .socialbox ul li{
+	float: left;
+	margin: 0 10px 0 0px;
+}
+.header-container .search-social .socialbox ul li:last-child{
+	margin: 0px;
+}
+.header-container .search-social .socialbox ul li a{
+	float: left;
+	width: 25px;
+	height: 25px;
+	text-indent: -999999px;
+	background-image: url('../Images/social-icon.png');
+}
+.header-container .search-social .socialbox ul li:hover{
+	opacity: 0.8;
+}
+.header-container .search-social .socialbox ul li.fb a{
+	background-position: 0px 0px;
+}
+.header-container .search-social .socialbox ul li.tw a{
+	background-position: -35px 0px;
+}
+.header-container .search-social .socialbox ul li.gp a{
+	background-position: -70px 0px;
+}
+.header-container .search-social .socialbox ul li.ln a{
+	background-position: -105px 0px;
+}
+
+/* Nav CSS */
+.nav-container{
+	width: 100%;
+	background: url(../Images/nav-bg.png) no-repeat top center;
+	height: 128px;
+	position: relative;
+	top:500px;
+	float: left;
+}
+
+.nav-container nav{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.nav-container nav ul li{
+	width: 200px;
+	height: 128px;
+	float: left;
+}
+.nav-container nav ul li a{
+	font-size: 18px;
+	color: #FFFFFF;
+	float: left;
+	width: 100%;
+	height: 33px;
+	text-align: center;
+	padding-top: 95px;
+	position: relative;
+	font-family:"Segoe Script";
+}
+.nav-container nav ul li.divcover{
+	background: #e51400 url(../Images/nav-discover.png) no-repeat center 20px;
+}
+.nav-container nav ul li.lifeat{
+	background: #009999 url(../Images/nav-lifeat.png) no-repeat center 20px;
+}
+.nav-container nav ul li.departments{
+	background: #ff7301 url(../Images/nav-departments.png) no-repeat center 20px;
+}
+.nav-container nav ul li.admissions{
+	background: #8cbf26 url(../Images/nav-admissions.png) no-repeat center 20px;
+}
+.nav-container nav ul li.alumni{
+	background: #3498db url(../Images/nav-alumni.png) no-repeat center 20px;
+}
+.nav-container nav ul li ul{
+	position: absolute;
+	display: none;
+	width: 200px;
+}
+.nav-container nav ul li ul li{
+	width: 200px;
+	display: inline;
+	height: auto;
+	padding: 0px;
+}
+.nav-container nav ul li ul a{
+	padding: 4px 0px 4px 5px;
+	color: #FFFFFF;
+	position: relative;
+	text-align: left;
+	font-size: 14px;
+	height: auto;
+}
+.nav-container nav ul li:hover ul{
+	display: block;
+}
+nav>ul>li:hover>ul{
+	bottom: 100%;
+	position: absolute;
+}
+.nav-container nav ul li ul li ul{
+	position: absolute;
+	display: none !important;
+}
+.nav-container nav ul li ul li:hover ul{
+	display: block !important;
+	position: absolute;
+	left: 100%;
+	z-index: 1000;
+}
+.nav-container nav ul li.divcover ul{
+	margin-left: 0px;
+}
+.nav-container nav ul li.divcover ul li{
+	background: #e51400;
+	border-bottom: 1px solid #990000;
+}
+.nav-container nav ul li.lifeat ul li{
+	background: #009999;
+	border-bottom: 1px solid #006666;
+}
+.nav-container nav ul li.departments ul{
+	width: 340px;
+}
+.nav-container nav ul li.departments ul li{
+	background: #ff7301;
+	border-bottom: 1px solid #cc6633;
+	width: 340px;
+}
+.nav-container nav ul li.departments ul li.sub-nav{
+	background: #ff7301 url(../Images/innerpage-sidebar-arrow.png) no-repeat 97% center;
+}
+.nav-container nav ul li.lifeat ul li.sub-nav{
+	background: #009999 url(../Images/innerpage-sidebar-arrow.png) no-repeat 97% center;
+}
+.nav-container nav ul li.admissions ul li{
+	background: #8cbf26;
+	border-bottom: 1px solid #669933;
+}
+

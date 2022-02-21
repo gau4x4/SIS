@@ -1,0 +1,27 @@
+/* 
+    Document   : formcss
+    Created on : Nov 5, 2014, 6:53:35 PM
+    Author     : GAURAV
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+table,tr,td{
+    background-color: #003333;
+}
+input{
+    margin: 0;
+    padding: 0;
+     background-color: #003333;
+}
+select{
+    margin: 0;
+    padding: 0;
+     background-color: #003333;
+    
+}
+option{
+    margin: 0;
+    padding: 0;
+     background-color: #003333;
+}

@@ -1,0 +1,150 @@
+
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="Styles/styles.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script/script.js"></script>
+   <title>CONTACT</title>
+<style>
+body
+{
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+}
+#header
+{
+	height:100px;
+	background-image:url("Images/2.jpg");
+	border:8px green ridge;
+	padding:20px;
+        color:green;
+        font-family: "BankGothic Md BT";
+        font-size: 60px;
+}
+#header2
+{
+	height:45px;
+        width: 100px;
+	background-image:url("Images/2.jpg");
+	border:8px green ridge;
+	color:green;
+        font-family: "BankGothic Md BT";
+        font-size: 15px;
+}
+
+#menu
+{
+position:absolute;
+	width:150px;
+	color:green;
+	background-image:url("Images/2.jpg");
+        border:8px green ridge;
+	font-size:25px;
+	height:400px;
+	padding:20px;
+        font-family: "BankGothic Md BT";
+}
+.pages
+{
+position:absolute;
+	width:1000px;
+	height:450px;
+	color:black;
+	background-image:url("Images/2.jpg");
+	border:4px green ridge;
+	display:none;
+        font-family: "BankGothic Md BT";
+}
+#footer
+{
+	position:absolute;
+	background-image:url("Images/2.jpg");
+	color:green;
+        border: 8px green ridge;
+	font-size:22px;
+	height:70px;
+	top:650px;
+	width:100%;
+        font-family: "BankGothic Md BT";
+}
+a:visited
+{
+    text-align:left;
+    color: green;
+}
+.menuitems
+{
+	cursor:default;
+}
+in
+{
+width:100px;
+height:100px;
+background:red;
+-webkit-transition:width 2s; 
+transition:width 2s;
+}
+
+In:hover
+{
+width:300px;
+}
+</style>
+<script src="Script/js.js">
+</script>
+<script language="JavaScript1.1">
+	$(document).ready(function(){
+	$("#aboutitem").click(function(){
+		$(".pages").hide(300);
+		$("#aboutp").show(400);
+	});
+	$("#productitem").click(function(){
+		$(".pages").hide(300);
+		$("#productp").show(400);
+	});
+	$("#servicesitem").click(function(){
+		$(".pages").hide(300);
+		$("#servicesp").show(400);
+	});
+	$("#supportitem").click(function(){
+		$(".pages").hide(300);
+		$("#supportp").show(400);
+	});
+	$("#helpitem").click(function(){
+		$(".pages").hide(300);
+		$("#helpp").show(400);
+	});
+	$("#contactitem").click(function(){
+		$(".pages").hide(300);
+		$("#contactp").show(400);
+	});
+	});
+</script>
+</head>
+<body >
+<div id="header"> 
+    <a href="Images/41.jpg"><img src="Images/41.jpg"height="100px" width="100px" align="right" border="4px"></a>
+        <center>IMS ENGINEERING COLLEGE</center>     
+                   
+    </div>
+	
+<div id='cssmenu'>
+<ul>
+    <li><a href="index.jsp" id="aboutitem" ><span>Home</span></a></li>
+   <li><a id="productitem"><span>Contact-us</span></a></li> 
+   <li><a id="servicesitem"><span>mail</span></a></li>
+   <li class='last'><a id="supportitem"><span>how-to-reach</span></a></li>
+</ul>
+</div>
+<div style="position:absolute;width:1000px;height:400px;background-color:green;top:200px;left:280px; border: 8px transparent ridge">
+    <div id="aboutp" class="pages">HEY</div>
+    <div id="productp" class="pages">HEY</div>
+    <div id="servicesp" class="pages">HEY</div>
+    <div id="supportp" class="pages">HEY</div>
+</div>
+</body>
+<html>
